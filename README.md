@@ -1,0 +1,2 @@
+# bagR
+Sammlung verschiedener Funktionen
