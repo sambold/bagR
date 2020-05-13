@@ -1,0 +1,13 @@
+Package: bagR
+Title: Sammlung verschiedener Funktionen ohne Rahmen
+Version: 0.1
+Author: Samuel Kasper
+Description: Sammlung verschiedener Funktionen ohne Rahmen
+Maintainer: Samuel Kasper <samboldsky@gmail.com>
+Depends: R (>= 3.1.0)
+Imports: RCurl, dplyr, ggplot2, ggsci, gridExtra, magrittr, plyr, rJython,
+    rlang, rvest, secret, stringr, purrr
+License: MIT
+  LazyData: true
+RoxygenNote: 7.1.0
+Encoding: UTF-8
