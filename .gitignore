@@ -3,7 +3,7 @@
 .Rapp.history
 
 # Session Data files
-.RData
+*.RData
 
 # User-specific files
 .Ruserdata
@@ -28,7 +28,7 @@ vignettes/*.pdf
 .httr-oauth
 
 # Folders
-.R_tmp/*
+.R_tmp
 
 # knitr and R markdown default cache directories
 *_cache/
