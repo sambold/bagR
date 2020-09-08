@@ -44,6 +44,7 @@ init_selenium <- function(image="selenium/standalone-firefox-debug:latest",
     system(glue::glue("sudo {opts$opt} docker run -d \\
                       {selenium_port_string} \\
                       {vinagre_port_string} \\
+                      --shm-size 2g \\
                       {image}"),
            input=ifelse(opts$use_vault, bagR::get_secret(opts$secret),opts$secret))
   } else {
